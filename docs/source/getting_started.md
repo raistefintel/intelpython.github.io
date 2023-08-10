@@ -1,12 +1,15 @@
-# Get Started With Intel® Distribution for Python\*
-Intel® Distribution for Python\* is a cluster of packages including Numba, NumPy and more. All these packages are optimized via Intel® oneAPI Math Kernel Library (oneMKL) and Intel® oneAPI Data Analytics Library (oneDAL) to make Python\* application more efficient.
+# Get Started with the Intel® Distribution for Python\*
+The Intel® Distribution for Python\* is a cluster of packages including Numba, NumPy, and more. All these packages are optimized via Intel® oneAPI Math Kernel Library (oneMKL) and Intel® oneAPI Data Analytics Library (oneDAL) to make Python\* application more efficient.
 
 ## Supported Installation Options
+
 ### Install via Intel® AI Analytics Toolkit
-Intel® AI Analytics Toolkit includes Intel Distribution for Python. So the Intel Distribution for Python is ready for use once the Intel AI Analytics Toolkit installation is finished and the environment activation is run.
+The Intel® AI Analytics Toolkit includes the Intel Distribution for Python. So the Intel Distribution for Python is ready for use once the Intel AI Analytics Toolkit installation is finished and the environment activation is run.
+
 #### Environment Setup
-1. Install Intel AI Analytics Toolkit. To download Intel Distribution for Python* from the Intel AI Analytics Toolkit, visit [here](https://www.intel.com/content/www/us/en/developer/tools/oneapi/ai-analytics-toolkit-download.html) and choose the installation method of your choice. Find detailed information about the toolkit [here](https://www.intel.com/content/www/us/en/developer/tools/oneapi/ai-analytics-toolkit.html#gs.48ofa2).
-2. Set up Intel AI Analytics Toolkit environment. <br>
+1. **Install the Intel AI Analytics Toolkit.** <br>
+To download the Intel Distribution for Python* from the Intel AI Analytics Toolkit, visit [here](https://www.intel.com/content/www/us/en/developer/tools/oneapi/ai-analytics-toolkit-download.html) and choose the installation method of your choice. Find detailed information about the toolkit [here](https://www.intel.com/content/www/us/en/developer/tools/oneapi/ai-analytics-toolkit.html#gs.48ofa2).
+2. **Set up Intel the AI Analytics Toolkit environment.** <br>
 Source the setvars script located in the root of your oneAPI installation.
 * Linux\*:
   - Sudo:
@@ -21,11 +24,11 @@ Source the setvars script located in the root of your oneAPI installation.
   ```
   C:\Program Files(x86)\Intel\oneAPI\setvars.bat
   ```
-For more information on environment variables, view [Use the setvars Script for Linux or macOS](https://www.intel.com/content/www/us/en/docs/oneapi/programming-guide/2023-0/use-the-setvars-script-with-linux-or-macos.html), or [Windows](https://www.intel.com/content/www/us/en/docs/oneapi/programming-guide/2023-0/use-the-setvars-script-with-windows.html).
-3. Activate the conda environment.
+For more information on environment variables, check out how to [use the setvars Script for Linux or macOS](https://www.intel.com/content/www/us/en/docs/oneapi/programming-guide/2023-0/use-the-setvars-script-with-linux-or-macos.html), or [Windows](https://www.intel.com/content/www/us/en/docs/oneapi/programming-guide/2023-0/use-the-setvars-script-with-windows.html).
+
+3. **Activate the conda environment.**
 * Linux\*:
-  - If you have root access to your oneAPI installation path or if you use the Intel® DevCloud: <br>
-Intel Python environment will be activated by default. However, if you have activated another environment, you can return with the following command:
+  - If you have root access to your oneAPI installation path or if you use the Intel® DevCloud, Intel Python environment will be activated by default. However, if you have activated another environment, you can return with the following command:
     ```
     source activate base
     ```
@@ -57,12 +60,12 @@ Intel Python environment will be activated by default. However, if you have acti
    conda create -n idp intelpython3_core python=3.x
    ```
    **Please note that “x” in “python=3.x” should signify which version of Python\* you would like to install.** For example, for Python\* version 3.9: conda create -n idp intelpython3_core python=3.9.
-4. Acitvate conda environment, then follow the usual steps for activating the environment:
+4. Activate the conda environment:
    ```
    conda activate idp
    ```
 ## Sanity Check
-After the activation of the environment, type python in the command line to find the Python\* distribution info.
+After the activation of the environment, type `python` in the command line to find the Python\* distribution info.
 - Linux\* & Windows\*: `python` <br>
   The distribution info should include `Intel Corporation`:
     * Linux:
@@ -83,7 +86,7 @@ After the activation of the environment, type python in the command line to find
   These methods can be used as a sanity check that Intel Distribution for Python is properly installed.
 
 ## Sample Code
-Run this numpy sample code in a stock Python\* environment comparing to a IntelPython environment. You will see benefits from IntelPython.
+Run this numpy sample code in a stock Python\* environment and in an IntelPython environment. You will see benefits from IntelPython.
 ```
 import numpy as np
 import time
