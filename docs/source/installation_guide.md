@@ -42,7 +42,7 @@ For more information on environment variables, check out how to [use the setvars
     ```
     C:\ProgramFiles(x86)\Intel\oneAPI\intelpython\python3.x\Scripts\activate
     ```
-### Install as a single component
+### Install as a Single Component
 Achieve fast math-intensive workload performance without code changes for data science and machine learning problems. This component is part of the Intel® AI Analytics Toolkit. <br>
 
 [![sign-up-for-updates](https://img.shields.io/badge/Sign_up_for_updates-blue)](https://software.seek.intel.com/developer-products-sign-up?dwnld=Intel%C2%AE%20Distribution%20for%20Python%2A)
@@ -78,6 +78,14 @@ Intel® Distribution for Python (version 2023.2.0) has been updated to include f
    ```
    conda activate idp
    ```
+### Install Using YUM Repository
+
+For the latest instructions on how to install Intel® Distribution for Python* using YUM, please check out [this guide](https://www.intel.com/content/www/us/en/developer/articles/guide/installing-free-libraries-and-python-yum-repo.html).
+
+### Install Using APT Repository
+
+For the latest instructions on how to install Intel® Distribution for Python* using APT, please check out [this guide](https://www.intel.com/content/www/us/en/developer/articles/guide/installing-free-libraries-and-python-apt-repo.html).
+
 ## Sanity Check
 After the activation of the environment, type `python` in the command line to find the Python\* distribution info.
 - Linux\* & Windows\*: `python` <br>
