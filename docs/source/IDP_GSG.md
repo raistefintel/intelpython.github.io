@@ -34,7 +34,8 @@ Operating systems:
 - Unix family*
 - Windows® 10
 - Windows* 11
-- pported versions:
+
+Supported versions:
 - Python 3.11, Python 3.12
 
 Package management:
@@ -60,10 +61,10 @@ You can use [Intel® Distribution for Python* in  Intel® Tiber™ Developer Clo
 
 ## Offline Installer
 1. To download the Intel® Distribution for Python*, visit [here](https://www.intel.com/content/www/us/en/developer/tools/oneapi/distribution-python-download.html) and choose the installation method of your choice. 
-2. Run the following commands to install on respective platform:
+2. Run the following commands to install on the respective platform:
 
 **Linux installation (Interactive)**
-Note that the file name must be changed to how to appears in your downloads folder.
+Note that the file name must be changed to how it appears in your downloads folder.
 ```bash
 bash ~/intelpython3-202X.X.X.sh 
 ```
@@ -100,7 +101,7 @@ source $HOME/intelpython3/bin/activate
 ```
    
 **Windows**
-Navigate to the installation directory of Intel Python and find the "Scripts" directory, then run `.\activate` in the terminal.
+Navigate to the Intel Python installation directory, find the "Scripts" directory, and run' .activate` in the terminal.
 
 The command prompt should now show `(base)` at the start of the command prompt.
 
@@ -162,7 +163,7 @@ mamba create -n idp intelpython3_full python=3.x
 ```
 Please note that “x” in `python=3.x` should signify which version of Python* you would like to install. 
 
-4.	Acitvate conda environment, then follow the usual steps for activating the environment: 
+4.	Activate the environment: 
 ```bash
 mamba activate idp
 ```
